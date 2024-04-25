@@ -19,6 +19,6 @@ describe("Currency Converter", () => {
     it("it should not convert USD to USD", () => {
         const converter = new CurrencyConversion()
 
-        expect(() => converter.convert({value: 10, fromCurrency: "Dolar", toCurrency: "Dolar"})).toThrow("Taxa de conversão de Dolar para Dosadalar não encontrada")
+        expect(() => converter.convert({value: 10, fromCurrency: "Dolar", toCurrency: "Dolar"})).toThrow("Taxa de conversão de Dolar para Dolar não encontrada")
     })
 })
