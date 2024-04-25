@@ -1,23 +1,15 @@
 {
-  "name": "tarefa_2",
+  "name": "pratica_1",
   "version": "1.0.0",
-  "type": "commonjs",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Gabriel Costa - 1586",
+  "type": "module",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
-    "ts-jest": "^29.1.2",
-    "typescript": "^5.4.3"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "extensionsToTreatAsEsm": [".ts"]
+    "jest": "^29.7.0"
   }
-  
 }
