@@ -5,8 +5,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "jest",
-    "build": "tsc"
+    "test": "jest"
   },
   "author": "Gabriel Costa - 1586",
   "license": "ISC",
